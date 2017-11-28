@@ -38,6 +38,6 @@ public final class JShellTest {
         shell.eval("void three() { System.out.println(\"three VJUG\"); }");
         
         /* Print signature & name of all methods, created on java shell */
-        shell.methods().forEach(v -> out.println("Method: " + v.signature() + " " + v.name()));
+        shell.methods().forEach(v -> out.println("Manjeet Method: " + v.signature() + " " + v.name()));
     }
 }
